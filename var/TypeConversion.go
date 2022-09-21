@@ -8,6 +8,8 @@ import (
 
 func main() {
 	strInt := "100"
+	fmt.Println(string(strInt))
+
 	i, err := strconv.Atoi(strInt)
 	fmt.Println(i, err, reflect.TypeOf(i))
 
